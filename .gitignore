@@ -1,0 +1,50 @@
+# === GO BUILD FILES ===
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories
+/bin/
+/build/
+tmp/
+dist/
+
+# Go workspace & cache
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dependency directories (if vendor used)
+vendor/
+
+# === ENVIRONMENT FILES ===
+.env
+.env.*
+
+# === IDE / EDITOR FILES ===
+# VSCode
+.vscode/
+# GoLand / IntelliJ
+.idea/
+# Sublime / Other editors
+*.sublime-workspace
+*.sublime-project
+
+# === OS-SPECIFIC FILES ===
+.DS_Store
+Thumbs.db
+
+# === BACKUP FILES ===
+*.old
+*.orig
+*.save
+
+# === MODULE FILES ===
+# (Keep go.mod and go.sum — DO NOT IGNORE)
+# So don't add them here!
