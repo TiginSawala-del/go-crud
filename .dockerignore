@@ -1,0 +1,9 @@
+# Ignore files not needed inside the container
+.git
+.gitignore
+Dockerfile
+*.exe
+*.out
+*.test
+.env
+README.md
